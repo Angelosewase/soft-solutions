@@ -1,11 +1,10 @@
 import WebLayout from "./components/WebLayout";
 
-
 function App() {
   return (
     <>
       <WebLayout>
-        <p>hello world</p>
+        <p className="text-3xl font-semibold text-red-500">hello world</p>
       </WebLayout>
     </>
   );
