@@ -1,7 +1,12 @@
+import WebLayout from "./components/WebLayout";
+
+
 function App() {
   return (
     <>
-      <p>hello world </p>
+      <WebLayout>
+        <p>hello world</p>
+      </WebLayout>
     </>
   );
 }
