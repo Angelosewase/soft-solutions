@@ -1,13 +1,20 @@
-import WebLayout from "./components/WebLayout";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Index from "./pages";
+import Contact from "./pages/contact";
+
+const routes = createBrowserRouter([
+  {
+    path: "/",
+    element: <Index />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+  },
+]);
 
 function App() {
-  return (
-    <>
-      <WebLayout>
-        <p className="text-3xl font-semibold text-red-500">hello world</p>
-      </WebLayout>
-    </>
-  );
+  return <RouterProvider router={routes} />;
 }
 
 export default App;
