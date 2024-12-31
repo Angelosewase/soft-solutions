@@ -1,5 +1,3 @@
-import React from "react";
-
 function HeroSection() {
   return (
     <div className="h-[86vh] flex p-32  items-center space-x-8">
