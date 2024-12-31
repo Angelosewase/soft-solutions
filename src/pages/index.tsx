@@ -1,10 +1,11 @@
 import WebLayout from "../components/WebLayout";
+import HeroSection from "../sections/HeroSection";
 
 function Index() {
   return (
     <>
       <WebLayout>
-        <section className="text-3xl font-semibold text-red-500 ">hello world</section>
+       <HeroSection />
       </WebLayout>
     </>
   );

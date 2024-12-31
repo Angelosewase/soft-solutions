@@ -9,7 +9,7 @@ export default {
         colors:{
           green:{
             500: '#41873F',
-            900 :'#088632'
+            900 :'#02200c'
           }, 
           tdesc:'#4A5568'
         }
